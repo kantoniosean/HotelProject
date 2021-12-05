@@ -5,30 +5,30 @@ import java.util.*;
 public class HotelProject {
 
     public static void main(String[] args) {
-        ArrayList<Hotel> hotels = new ArrayList<>();                 
+       ArrayList<Hotel> hotels = new ArrayList<>();                 
         
-        Hotel h1 = new Hotel("Hilton", 5);
-        h1.setGoogleRating(4.1);
+       Hotel h1 = new Hotel("Hilton", 5);
+       h1.setGoogleRating(4.1);
         
-        h1.addRoom(new singleRoom(101, 122.5, "Queen", true)); 
-        h1.addRoom(new singleRoom(102, 180.99, "King", true)); 
-        h1.addRoom(new singleRoom(203, 160.0, "Twin", false)); 
-        h1.addRoom(new suite(601, 400.5, 2, false)); 
-        h1.addRoom(new suite(602, 600.5, 3, true));
-        h1.addRoom(new PentHouse(7700, 2000, 3, false));
-        h1.addRoom(new PentHouse(5140, 1200, 2, false));
-        h1.addRoom(new PentHouse(5600, 2500, 2, true));
+       h1.addRoom(new singleRoom(101, 122.5, "Queen", true)); 
+       h1.addRoom(new singleRoom(102, 180.99, "King", true)); 
+       h1.addRoom(new singleRoom(203, 160.0, "Twin", false)); 
+       h1.addRoom(new suite(601, 400.5, 2, false)); 
+       h1.addRoom(new suite(602, 600.5, 3, true));
+       h1.addRoom(new PentHouse(7700, 2000, 3, false));
+       h1.addRoom(new PentHouse(5140, 1200, 2, false));
+       h1.addRoom(new PentHouse(5600, 2500, 2, true));
           
-        Hotel h2 = new Hotel("Marriott", 4);
-        h2.setGoogleRating(4.5);
+       Hotel h2 = new Hotel("Marriott", 4);
+       h2.setGoogleRating(4.5);
         
-        h2.addRoom(new singleRoom(1001, 350, "Queen", false));
-        h2.addRoom(new singleRoom(1002, 377, "King", true)); 
-        h2.addRoom(new suite(3304, 1001, 2, true)); 
-        h2.addRoom(new suite(4304, 1500, 4, true)); 
-        h2.addRoom(new PentHouse(5060, 3500, 4, true));
-        h2.addRoom(new PentHouse(6666, 3100, 3, false));
-        h2.addRoom(new PentHouse(7000, 2700, 2, true));
+       h2.addRoom(new singleRoom(1001, 350, "Queen", false));
+       h2.addRoom(new singleRoom(1002, 377, "King", true)); 
+       h2.addRoom(new suite(3304, 1001, 2, true)); 
+       h2.addRoom(new suite(4304, 1500, 4, true)); 
+       h2.addRoom(new PentHouse(5060, 3500, 4, true));
+       h2.addRoom(new PentHouse(6666, 3100, 3, false));
+       h2.addRoom(new PentHouse(7000, 2700, 2, true));
         
        Hotel h3 = new Hotel("Holiday Inn", 4);
        h3.setGoogleRating(4.3);
