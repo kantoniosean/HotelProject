@@ -46,13 +46,7 @@ public class HotelProject {
         hotels.add(h2);
         hotels.add(h3);
         
-        Hotel h4 = new Hotel("Sheraton", 4);
-        h4.setGoogleRating(3.9);
-        
-        h4.addRoom(new singleRoom(354, 230.0, "Full", true));
-        
-        
-        
+            
         Collections.sort(hotels);
         
         System.out.println("----------------------------------------------------------");
